@@ -1,0 +1,83 @@
+:root{
+  --bgBody: #53c2cf;
+  --bgTerminal: #1f1e1d;
+  --textPrimTerminal: #fff;
+  --textSecoTerminal: #add73c;
+  --textThirTerminal: #8b8c85;
+  --textFourTerminal: #a62d51;
+  --textFivTerminal: #d99542;
+  --textSixthTerminal: #d5d27e;
+  --red: #ea5553;
+  --yellow: #fdb32b;
+  --green: #36c13e;
+}
+body{
+  background-color: var(--bgBody);
+}
+textarea,
+#terminal {
+  background-color: var(--bgTerminal);
+  color: var(--textPrimTerminal);
+}
+.displayNone {
+  display: none!important;
+}
+
+div#terminal, div#input {
+    width: 60%;
+    min-height: 450px;
+    display: block;
+    font-size: 20px;
+    font-family: monospace;
+    margin: 0 auto;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(50%);
+    border-radius: 3px;
+}
+
+div#bar {
+    height: 20px;
+    padding: 10px;
+}
+
+div#innerTerminal {
+    padding: 10px;
+}
+div.winBttn {
+    height: 19px;
+    width: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#close{
+  background-color: var(--red);
+}
+#resize{
+  background-color: var(--yellow);
+}
+#maximize{
+  background-color: var(--green);
+}
+.numline{
+  color: var(--textThirTerminal);
+  padding-right: 20px;
+}
+.colorFirst {
+  color: var(--textPrimTerminal)!important;
+}
+.colorSecond{
+  color: var(--textSecoTerminal)!important;
+}
+.colorThird{
+  color: var(--textThirTerminal)!important;
+}
+.colorFourth{
+  color: var(-textFourTerminal)!important;
+}
+.colorFiveth{
+  color:var(--textFivTerminal)!important;
+}
+.colorSixth{
+  color: var(--textSixthTerminal)!important;
+}
