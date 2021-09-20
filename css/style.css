@@ -53,6 +53,9 @@ div.winBttn {
 #close{
   background-color: var(--red);
 }
+#close:hover{
+  cursor: pointer;
+}
 #resize{
   background-color: var(--yellow);
 }

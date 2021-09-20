@@ -8,4 +8,8 @@ $(document).ready(function() {
     cdmator.setDelay($('#delay').val())
     cdmator.start(input);
   })
+  $('#close').click(function(){
+    $('#input').removeClass('displayNone');
+    $('#outputArea').addClass('displayNone');    
+  });
 });
